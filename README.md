@@ -1,2 +1,2 @@
 # 7
-WG7 on Fast and Smart Maps: ToR
+DWG7 Smart Maps [Project Document](https://github.com/UNopenGIS/7/wiki/Project-Document)
