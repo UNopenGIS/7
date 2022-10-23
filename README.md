@@ -7,7 +7,7 @@ UN Open GIS Initiative DWG7 on Smart Maps
 ## Objective information repositories
 
 - Objective 1: UN operation
-- Objective 2: GSI operatoin
+- Objective 2: GSI operation
 - Objective 3: UNVT Portable https://github.com/unvt/portable
 - Objective 4: Smart Campus https://github.com/unopengis/74
 - Objective 5: Spatial ID https://github.com/spatial-id
