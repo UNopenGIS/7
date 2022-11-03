@@ -1,0 +1,19 @@
+name: Add labels to opened issue
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add-label:
+    name: Add label to opened issue
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['waiting/triage', 'waiting/assign']
+            });
