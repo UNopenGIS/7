@@ -15,7 +15,10 @@ UN Open GIS Initiative DWG7 on Smart Maps
 Available at [https://unopengis.github.io/7/dwg7-provisional-logo.jpg](https://unopengis.github.io/7/dwg7-provisional-logo.jpg).
 
 ## Provisional social preview image
+### 2nd gen
+![social preview image 2](https://unopengis.github.io/7/dwg7-provisional-social-preview-image-2.jpg)
 
+### 1st gen
 ![social preview image](https://unopengis.github.io/7/dwg7-provisional-social-preview-image.jpg)
 
 Available at [https://unopengis.github.io/7/dwg7-provisional-social-preview-image.jpg](https://unopengis.github.io/7/dwg7-provisional-social-preview-image.jpg).
