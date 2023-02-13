@@ -6,7 +6,10 @@ UN Open GIS Initiative DWG7 on Smart Maps
 - [Project Kanban](https://github.com/orgs/UNopenGIS/projects/1/views/1)
 
 ## Provisonal logo
+### 2nd gen
+![provisional logo 2](https://unopengis.github.io/7/dwg7-provisional-logo-2.jpg)
 
+### 1st gen
 ![provisional logo](https://unopengis.github.io/7/dwg7-provisional-logo.jpg)
 
 Available at [https://unopengis.github.io/7/dwg7-provisional-logo.jpg](https://unopengis.github.io/7/dwg7-provisional-logo.jpg).
