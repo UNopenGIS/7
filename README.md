@@ -1,27 +1,13 @@
-# 7
+# UN Smart Maps
 
-UN Open GIS Initiative DWG7 on Smart Maps
+- [Documentation](https://unopengis.github.io/smartmaps)
+- [Issues](https://github.com/unopengis/7/issues)
+- [Matrix](https://matrix.to/#/%23denshujo%3Amatrix.org)
 
-- [Project Document](https://github.com/UNopenGIS/7/wiki/Project-Document)
-- [Project Kanban](https://github.com/orgs/UNopenGIS/projects/1/views/1)
+## Social Preview Image
+![social preview image](https://user-images.githubusercontent.com/8574425/239810475-bc057bee-f794-455e-a7b1-cc17c275967f.png)
 
-## Provisonal logo
-### 2nd gen
-![provisional logo 2](https://unopengis.github.io/7/dwg7-provisional-logo-2.jpg)
-
-### 1st gen
-![provisional logo](https://unopengis.github.io/7/dwg7-provisional-logo.jpg)
-
-Available at [https://unopengis.github.io/7/dwg7-provisional-logo.jpg](https://unopengis.github.io/7/dwg7-provisional-logo.jpg).
-
-## Provisional social preview image
-### 2nd gen
-![social preview image 2](https://unopengis.github.io/7/dwg7-provisional-social-preview-image-2.jpg)
-
-### 1st gen
-![social preview image](https://unopengis.github.io/7/dwg7-provisional-social-preview-image.jpg)
-
-Available at [https://unopengis.github.io/7/dwg7-provisional-social-preview-image.jpg](https://unopengis.github.io/7/dwg7-provisional-social-preview-image.jpg).
+Also have a [logo](https://github.com/UNopenGIS/7/blob/main/dwg7-provisional-logo-2.jpg) which may need to match the color with the social preview image. 
 
 ## Objective information repositories
 
