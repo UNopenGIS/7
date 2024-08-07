@@ -1,0 +1,39 @@
+name: Create Weekly Issue
+
+on:
+  schedule:
+    # Schedule to run every Tuesday at 13:00 (1 PM) JST (04:00 UTC)
+    - cron: '0 4 * * 2'
+
+jobs:
+  create-issue:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Create GitHub Issue
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const now = new Date();
+          const nextTuesday = new Date(now);
+          nextTuesday.setDate(now.getDate() + ((2 + 7 - now.getDay()) % 7));
+          const year = nextTuesday.getFullYear();
+          const month = String(nextTuesday.getMonth() + 1).padStart(2, '0');
+          const day = String(nextTuesday.getDate()).padStart(2, '0');
+          const dateString = `${year}-${month}-${day}T12:30/12:55+09:00`;
+
+          const issueTitle = '🖐Smart Maps Meetup Weekly';
+          const issueBody = `
+          ## ${dateString} 🖐Smart Maps Meetup Weekly
+          ### 接続アドレス
+          https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWNjZDBlNDMtY2RiNi00YjE5LTkyMzYtMWI5MjE2NzM3NTU5%40thread.v2/0?context=%7b%22Tid%22%3a%22eba9fc42-5588-4d31-8a4e-6e1bf79d31c0%22%2c%22Oid%22%3a%22265cf6f7-5673-4ef0-93bc-ebb87d669a75%22%7d
+
+          会議 ID: 429 235 468 444 
+          パスコード: EZycz3`;
+          const issue = await github.issues.create({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            title: issueTitle,
+            body: issueBody
+          });
+          console.log(`Created issue ${issue.data.html_url}`);
+		  
