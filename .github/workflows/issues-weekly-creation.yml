@@ -14,6 +14,7 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
+            const { github, context } = require('@actions/github');
             const now = new Date();
             const nextTuesday = new Date(now);
             nextTuesday.setDate(now.getDate() + ((2 + 7 - now.getDay()) % 7));
