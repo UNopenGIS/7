@@ -14,7 +14,6 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            const { github, context } = require('@actions/github');
             const now = new Date();
             const nextTuesday = new Date(now);
             nextTuesday.setDate(now.getDate() + ((2 + 7 - now.getDay()) % 7));
@@ -31,7 +30,7 @@ jobs:
 
             会議 ID: 429 235 468 444 
             パスコード: EZycz3`;
-            const issue = await github.issues.create({
+            const issue = await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
               title: issueTitle,
