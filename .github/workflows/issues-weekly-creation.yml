@@ -16,7 +16,7 @@ jobs:
           script: |
             const now = new Date();
             const nextTuesday = new Date(now);
-            nextTuesday.setDate(now.getDate() + ((2 + 7 - now.getDay()) % 7));
+            nextTuesday.setDate(now.getDate() + ((2 + 7 - now.getDay()) % 7) + 7);
             const year = nextTuesday.getFullYear();
             const month = String(nextTuesday.getMonth() + 1).padStart(2, '0');
             const day = String(nextTuesday.getDate()).padStart(2, '0');
