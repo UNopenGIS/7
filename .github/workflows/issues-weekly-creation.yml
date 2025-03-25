@@ -22,7 +22,7 @@ jobs:
             const day = String(nextTuesday.getDate()).padStart(2, '0');
             const dateString = `${year}-${month}-${day}T12:30/12:55+09:00`;
 
-            const issueTitle = '🖐Smart Maps Meetup Weekly';
+            const issueTitle = `${dateString} 🖐Smart Maps Meetup Weekly`;
             const issueBody = `
             ## ${dateString} 🖐Smart Maps Meetup Weekly
             ### 接続アドレス
