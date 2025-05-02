@@ -7,7 +7,7 @@
 ## Social Preview Image
 ![social preview image](https://user-images.githubusercontent.com/8574425/239810475-bc057bee-f794-455e-a7b1-cc17c275967f.png)
 
-Also have a [logo](https://github.com/UNopenGIS/7/blob/main/dwg7-provisional-logo-2.jpg) which may need to match the color with the social preview image. 
+Also have a [logo](https://github.com/UNopenGIS/7/blob/main/smart-maps-logo.svg) which may need to match the color with the social preview image. 
 
 ## Objective information repositories
 
