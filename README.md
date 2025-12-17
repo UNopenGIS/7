@@ -1,6 +1,6 @@
 # UN Smart Maps
 
-- [Documentation](https://unopengis.github.io/smartmaps)
+- [Web site](https://unopengis.org/DWG7.html)
 - [Issues](https://github.com/unopengis/7/issues)
 
 ## Social Preview Image
