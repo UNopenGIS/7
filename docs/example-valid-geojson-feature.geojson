@@ -1,0 +1,21 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [-13.257, 8.4558],
+          [-13.238, 8.4558],
+          [-13.238, 8.4709],
+          [-13.257, 8.4709],
+          [-13.257, 8.4558]
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "name": "Clipping Boundary Example",
+    "description": "Example of a valid GeoJSON Feature wrapping a MultiPolygon geometry"
+  }
+}
