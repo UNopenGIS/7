@@ -26,10 +26,7 @@ jobs:
             const issueBody = `
             ## ${dateString} 🖐Smart Maps Meetup Weekly
             ### Join link
-            https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWNjZDBlNDMtY2RiNi00YjE5LTkyMzYtMWI5MjE2NzM3NTU5%40thread.v2/0?context=%7b%22Tid%22%3a%22eba9fc42-5588-4d31-8a4e-6e1bf79d31c0%22%2c%22Oid%22%3a%22265cf6f7-5673-4ef0-93bc-ebb87d669a75%22%7d
-
-            Meeting ID: 429 235 468 444 
-            Passcode: EZycz3`;
+            https://meet.google.com/frk-ihkr-gfo`;
             const issue = await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
