@@ -26,7 +26,7 @@ jobs:
             const issueBody = `
             ## ${dateString} 🖐Smart Maps Meetup Weekly
             ### Join link
-            https://meet.google.com/frk-ihkr-gfo`;
+            https://teams.microsoft.com/meet/41977423159471?p=KhQYxkNIxNw9XCsOWU`;
             const issue = await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
